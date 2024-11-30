@@ -1,12 +1,12 @@
-import { BrowserRouter } from "react-router-dom"
-import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
-import abi28 from "../../assets/abi28.png"
-import { NavHashLink } from "react-router-hash-link"
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import Hello from '../../assets/Hello.gif'
+import { BrowserRouter } from "react-router-dom";
+import { Container } from "./styles";
+import ScrollAnimation from "react-animate-on-scroll";
+import abi28 from "../../assets/abi28.png";
+import { NavHashLink } from "react-router-hash-link";
+import linkedin from '../../assets/linkedin.svg';
+import githubIcon from '../../assets/github.svg';
+import whatsapp from '../../assets/whatsapp.svg';
+import Hello from '../../assets/Hello.gif';
 
 export function Heroiene() {
   return (
@@ -30,28 +30,29 @@ export function Heroiene() {
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
-        href="https://www.linkedin.com/in/abinaya-k-9b359a31"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={linkedin} alt="Linkedin" />
-      </a>
-        <a
-          href="https://github.com/ABINAYA0010"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B919345753436&text=Hello+Vinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-       </div>
+          <div className="social-media">
+            <a
+              href="https://www.linkedin.com/in/abinaya-k-9b359a31"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedin} alt="Linkedin" />
+            </a>
+            <a
+              href="https://github.com/ABINAYA0010"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=+919345753436&text=Hello+Abinaya"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={whatsapp} alt="Whatsapp" />
+            </a>
+          </div>
         </ScrollAnimation>
       </div>
       <div className="heroiene-image">
