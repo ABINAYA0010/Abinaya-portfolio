@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
@@ -31,13 +30,13 @@ export const Container = styled.header`
 
       &.button{
         padding: 0.6rem 2rem;
+        background-color: var(--green); /* Ensure default background color */
       }
 
       &:hover{
         filter: brightness(0.6);
       }
     }
-
   }
 
   .menu-container{
@@ -60,7 +59,6 @@ export const Container = styled.header`
       top: 0.5rem;
     }
 
-
     &.active:before{
       bottom: 0;
       transform: rotate(45deg);
@@ -74,7 +72,6 @@ export const Container = styled.header`
     &.active{
       background-color: rgba(0, 0, 0, 0);
     }
-
   }
 
   .menu:before, .menu:after {
@@ -87,7 +84,6 @@ export const Container = styled.header`
     cursor: pointer;
     transition: .6s;
   }
-
 
   input[type=checkbox] {
     height: 0;
@@ -105,8 +101,6 @@ export const Container = styled.header`
     display: block;
     justify-content: center;
     align-items: center;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
     border-radius: 100px;
     position: relative;
     margin-left: auto;
@@ -124,8 +118,6 @@ export const Container = styled.header`
     background: #FFF;
     width: 20px;
     height: 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
     top: 5px;
@@ -139,10 +131,6 @@ export const Container = styled.header`
 
   input:checked + label:after {
     left: calc(100% - 5px);
-    -webkit-transform: translateX(-100%);
-    -moz-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    -o-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 
@@ -165,14 +153,13 @@ export const Container = styled.header`
       position: fixed;
       width: 100vw;
       height: 100vh;
-      background: var(--blue);
+      background: var(--green);
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--green);
-
+      
       a.button{
-        background-color: var(--pink);
+        background-color: var(--pink) !important; /* Ensure pink background */
       }
 
       &.active{
@@ -181,5 +168,4 @@ export const Container = styled.header`
       }
     }
   }
-  
 `

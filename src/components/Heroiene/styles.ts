@@ -15,30 +15,27 @@ export const Container = styled.section`
     }
 
     h3{
-      color:var(--green);
+      color: var(--green);
       margin: 1rem 0;
     }
-
     
     p.small-resume {
       margin-bottom: 5rem;
     }
   }
-// New added
   .social-media{
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top:5rem;
-    padding-left:1rem;
+    padding-top: 5rem;
+    padding-left: 1rem;
 
-    img,span{
+    img, span{
       font-size: 3rem;
       width: 3.5rem;
     }
   }
-
 
   .button{
     margin-top: 5rem;
@@ -51,25 +48,25 @@ export const Container = styled.section`
     }
   }
 
-
   @media(max-width: 960px){
     display: block;
     margin-top: 15%;
-    .heroiene-text{
-
-      h1{
+    .heroiene-text {
+      h1 {
         font-size: 5rem;
       }
     }
     
-    .heroiene-image{
-      display: none;
+    .heroiene-image {
+      display: block; /* Ensure image is visible on mobile */
+      margin-top: 1rem; /* Optional: Adjust margin as needed */
     }
   }
 
   @media(max-width: 600px){
     margin-top: 35%;
   }
+  
   @media(max-width: 480px){
     margin-top: 45%;
   }
