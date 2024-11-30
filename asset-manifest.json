@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abinaya-portfolio/static/css/main.039bf95e.css",
-    "main.js": "/abinaya-portfolio/static/js/main.96731b75.js",
+    "main.css": "/abinaya-portfolio/static/css/main.46961403.css",
+    "main.js": "/abinaya-portfolio/static/js/main.c97c433d.js",
     "static/media/abinaya_resume.pdf": "/abinaya-portfolio/static/media/abinaya_resume.b5b8c4616ed8aecb16e7.pdf",
     "static/media/Hello.gif": "/abinaya-portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/abinaya27.png": "/abinaya-portfolio/static/media/abinaya27.c221335c5f100b8b8e5c.png",
@@ -24,11 +24,11 @@
     "static/media/linkedin.svg": "/abinaya-portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/abinaya-portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/vue-icon.svg": "/abinaya-portfolio/static/media/vue-icon.c286d2da48ffbf281f407b0c4c94271f.svg",
-    "main.039bf95e.css.map": "/abinaya-portfolio/static/css/main.039bf95e.css.map",
-    "main.96731b75.js.map": "/abinaya-portfolio/static/js/main.96731b75.js.map"
+    "main.46961403.css.map": "/abinaya-portfolio/static/css/main.46961403.css.map",
+    "main.c97c433d.js.map": "/abinaya-portfolio/static/js/main.c97c433d.js.map"
   },
   "entrypoints": [
-    "static/css/main.039bf95e.css",
-    "static/js/main.96731b75.js"
+    "static/css/main.46961403.css",
+    "static/js/main.c97c433d.js"
   ]
 }
