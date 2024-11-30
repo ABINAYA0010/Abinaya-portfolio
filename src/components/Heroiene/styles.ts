@@ -18,7 +18,7 @@ export const Container = styled.section`
       color: var(--green);
       margin: 1rem 0;
     }
-    
+
     p.small-resume {
       margin-bottom: 5rem;
     }
@@ -42,9 +42,13 @@ export const Container = styled.section`
     padding: 1.4rem 6rem;
   }
 
-  .heroiene-image{
-    img{
-      max-width: 500px;
+  .heroiene-image img{
+    margin-top: 2rem;
+    width: 75%;
+    filter: grayscale(0);
+    transition: filter 0.5s;
+    &:hover{
+      filter: grayscale(0);
     }
   }
 
@@ -56,10 +60,12 @@ export const Container = styled.section`
         font-size: 5rem;
       }
     }
-    
-    .heroiene-image {
+    .heroiene-image{
       display: block; /* Ensure image is visible on mobile */
       margin-top: 1rem; /* Optional: Adjust margin as needed */
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -69,5 +75,11 @@ export const Container = styled.section`
   
   @media(max-width: 480px){
     margin-top: 45%;
+    .heroiene-image {
+      max-width: 100%;
+      img {
+        width: 100%;
+      }
+    }
   }
 `
