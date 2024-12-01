@@ -45,7 +45,7 @@ export function Heroiene() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919345753436&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send/?phone=%2B919345753436&text=Hello+abinaya"
           target="_blank"
           rel="noreferrer"
         >
